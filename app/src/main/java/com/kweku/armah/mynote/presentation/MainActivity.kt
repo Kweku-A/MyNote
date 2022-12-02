@@ -3,7 +3,6 @@ package com.kweku.armah.mynote.presentation
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -21,7 +20,6 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.kweku.armah.mynote.R
 import com.kweku.armah.mynote.presentation.ui.navigation.MyNotesNavHost
 import com.kweku.armah.mynote.presentation.ui.theme.MyNoteTheme
 import dagger.hilt.android.AndroidEntryPoint

@@ -14,3 +14,15 @@ dependencyResolutionManagement {
 }
 rootProject.name = "MyNOte"
 include ':app'
+include ':feature1:feature1domain'
+include ':feature1:feature1presentation'
+include ':feature1:feature1data'
+include ':feature2:feature2domain'
+include ':feature2:feature2presentation'
+include ':feature2:feature2data'
+include ':feature3:feature3domain'
+include ':feature3:feature3data'
+include ':feature3:feature3presentation'
+include ':core:networkwrapper'
+include ':core:database'
+include ':core:retrofit'
